@@ -59,7 +59,7 @@ export default function Type({
 }
 
 Type.isBookingPage = true;
-Type.PageWrapper = PageWrapper;
+Type.PageWrapper = PageWrapper:
 
 async function getDynamicGroupPageProps(context: GetServerSidePropsContext) {
   const { user: usernames, type: slug } = paramsSchema.parse(context.params);
